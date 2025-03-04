@@ -1,0 +1,50 @@
+body {
+    background-color: #f7f6f6;
+    border: 0;
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    height: 80px;
+    padding-left: 20%;
+}
+
+h1 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 20%;
+}
+
+.img {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.first p:nth-child(2) {
+    color: darkgrey;
+}
